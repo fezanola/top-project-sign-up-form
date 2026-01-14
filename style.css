@@ -109,7 +109,7 @@ h1, h2{
 }
 .hero-content-container {
     position: absolute;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     display: flex;
 
@@ -120,7 +120,7 @@ h1, h2{
 
 .hero-content {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1;
     color: black;
 
@@ -129,4 +129,56 @@ h1, h2{
     z-index: 1;
 }
 
+.form-content-overlay {
+    position: absolute;
+
+    top: 40vh;
+
+    width: 65vw;
+    height: 30vh;
+
+    background-color: white;
+    
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    
+    z-index: 0;
+}
+
+
+.form-content {
+    position: absolute;
+    justify-content: left;
+
+    top: 40vh;
+
+    width: 65vw;
+    height: 30vh;
+
+    z-index: 1;
+    margin: 2vh 0vw 15vw 2vw;
+}
+
+input {
+    appearance: none;
+
+    border: 1px solid #d1d5db;
+    border-radius: 0.3rem;
+    padding: 0.5rem 0.75rem;
+}
+.form-title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1;
+    color: black;  
+    
+    margin-bottom: 3vh;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 250;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: black;
+}
 /* END FORM SIDE PANEL STYLES */
