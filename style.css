@@ -165,11 +165,18 @@ h1, h2{
 input {
     appearance: none;
     
-    border: 1px solid #d1d5db;
+    border: 1px solid #e5e7eb;
     border-radius: 0.20rem;
     padding: 0.50rem 0.33rem;
 
 }
+
+input:focus {
+    outline: 1px solid blue;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
 
 .form-grid {
     position: absolute;
@@ -200,6 +207,11 @@ input {
     
     margin: 1vh 0 0 2vw;
 
+}
+
+#password:user-invalid, #repeat-password:user-invalid {
+    outline: none;
+    border-color: red;
 }
 
 .bottom-content-overlay {
@@ -260,6 +272,12 @@ input {
     color: black;
 
     margin: 3vh 0 0 3.5vw;
+}
+
+#log-in {
+    text-decoration: none;
+    font-weight: 600;
+    color: #596d48;
 }
 
 /* END FORM SIDE PANEL STYLES */
