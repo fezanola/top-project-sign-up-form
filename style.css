@@ -35,7 +35,21 @@ h1, h2{
     background-position: center;
 }
 
-.overlay {
+.credits {
+    position: absolute;
+    align-self: center;
+    
+    top: 70vh;
+    
+    font-size: 14px;
+    color: white;
+}
+
+#credits-link {
+    color: white;
+}
+
+.overlay-background {
     position:absolute;
     top: 25vh;
     left: 0;
@@ -96,7 +110,7 @@ h1, h2{
     height: 100vh;
 }
 
-.hero-content-overlay {
+.hero-content-background {
     position: absolute;
 
     width: 65vw;
@@ -130,7 +144,7 @@ h1, h2{
     z-index: 1;
 }
 
-.form-content-overlay {
+.form-content-backgound {
     position: absolute;
 
     top: 40vh;
@@ -214,7 +228,7 @@ input:focus {
     border-color: red;
 }
 
-.bottom-content-overlay {
+.bottom-content-background {
     position: absolute;
     display: flex;
 
